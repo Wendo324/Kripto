@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./images/favicon.png">
+
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+        integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/js/all.min.js"
+        integrity="sha512-yk7SvYYZqGS11tWcb6cyoKiwgrNBeCHC7RebrVa0QOySVjh6WjEjaBaBue+VvDBHEfAGa0Z8/b6+LhoGSeweaw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/predefined.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.min.css">
+
+    <!-- Page Title -->
+    <title>KRIPTO</title>
+</head>
+
+<body id="body">
+    <!-- ——— Shape Background ——— -->
+    <div id="shapeBackground"></div>
+
+    <!-- ——— Header ——— -->
+    <div id="backdrop" onclick="toggleSidebar()"></div>
+    <header id="header">
+        <div class="container mx-auto">
+
+            <div class="wrapper">
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="./images/logo.png" alt="KRIPTO">
+                </div>
+
+                <!-- Menu -->
+                <aside id="sidebar">
+                    <div class="scroll">
+                        <nav class="nav">
+                            <ul>
+                                <li>
+                                    <a href="#" onclick="toggleMega(this)">
+                                        <span>Home</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+
+                                    <div class="mega mega-5">
+                                        <ul>
+                                            <li><a href="#">Azalea<span class="badge badge-light">V1.6</span></a></li>
+                                            <li><a href="#">Gentian<span class="badge badge-light">V1.6</span></a></li>
+                                            <li><a href="#">Zinnia</a></li>
+                                            <li><a href="#">Salvia<span class="badge badge-light">V1.6</span></a></li>
+                                            <li><a href="#">Lungwort<span class="badge badge-light">V1.6</span></a></li>
+                                            <li><a href="#">Jasmine</a></li>
+                                            <li><a href="#">Lobalia</a></li>
+                                            <li><a href="#">Muscari</a></li>
+                                            <li><a href="#">Lavender<span class="badge badge-light">V1.6</span></a></li>
+                                            <li><a href="#">Azure</a></li>
+                                            <li><a href="#">Default</a></li>
+                                            <li><a href="#">Linum</a></li>
+                                            <li><a href="#">Crocus<span class="badge badge-info">new</span></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="toggleMega(this)">
+                                        <span>Pages</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+
+                                    <div class="mega mega-7">
+                                        <ul>
+                                            <li><a href="#">Azalea<span class="badge badge-dot"></span></a></li>
+                                            <li><a href="#">Gentian<span class="badge badge-dot"></span></a></li>
+                                            <li><a href="#">Zinnia</a></li>
+                                            <li><a href="#">Salvia<span class="badge badge-dot"></span></a></li>
+                                            <li><a href="#">Lungwort<span class="badge badge-dot"></span></a></li>
+                                            <li><a href="#">Jasmine</a></li>
+                                            <li><a href="#">Lobalia</a></li>
+                                            <li><a href="#">Muscari</a></li>
+                                            <li><a href="#">Lavender<span class="badge badge-dot"></span></a></li>
+                                            <li><a href="#">Azure</a></li>
+                                            <li><a href="#">Default</a></li>
+                                            <li><a href="#">Linum</a></li>
+                                            <li><a href="#">Crocus<span class="badge badge-info">new</span></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="toggleMega(this)">
+                                        <span>Blog</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+
+                                    <div class="mega">
+                                        <ul>
+                                            <li><a href="#">Azalea</a></li>
+                                            <li><a href="#">Gentian</a></li>
+                                            <li><a href="#">Zinnia</a></li>
+                                            <li><a href="#">Salvia<span class="badge badge-info">new</span></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="toggleMega(this)">
+                                        <span>Elements</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+
+                                    <div class="mega mega-7">
+                                        <ul>
+                                            <li><a href="#">Azalea</a></li>
+                                            <li><a href="#">Gentian</a></li>
+                                            <li><a href="#">Zinnia</a></li>
+                                            <li><a href="#">Salvia</a></li>
+                                            <li><a href="#">Lungwort</a></li>
+                                            <li><a href="#">Jasmine</a></li>
+                                            <li><a href="#">Lobalia</a></li>
+                                            <li><a href="#">Muscari</a></li>
+                                            <li><a href="#">Lavender<span class="badge badge-info">V1.6.2</span></a>
+                                            </li>
+                                            <li><a href="#">Azure</a></li>
+                                            <li><a href="#">Default</a></li>
+                                            <li><a href="#">Linum</a></li>
+                                            <li><a href="#">Crocus</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="toggleMega(this)">
+                                        <span>Blocks</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+
+                                    <div class="mega mega-5">
+                                        <ul>
+                                            <li><a href="#">Azalea</a></li>
+                                            <li><a href="#">Gentian</a></li>
+                                            <li><a href="#">Zinnia</a></li>
+                                            <li><a href="#">Salvia</a></li>
+                                            <li><a href="#">Lavender<span class="badge badge-warning">hot</span></a>
+                                            </li>
+                                            <li><a href="#">Azure</a></li>
+                                            <li><a href="#">Default</a></li>
+                                            <li><a href="#">Linum</a></li>
+                                            <li><a href="#">Crocus</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="auth">
+                            <a href="#" class="uButton uButton-reverse">Login</a>
+                        </div>
+                    </div>
+                </aside>
+
+                <div id="sidebarToggle" onclick="toggleSidebar()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <!-- ——— Intro [Section 1] ——— -->
+        <section id="intro">
+            <div class="container flex mx-auto">
+
+                <div class="wrapper">
+                    <div class="top">
+                        <div class="content">
+                            <h1 class="uTitle">World First Decentralized Marketplace with blockchain infrastructure</h1>
+                            <p class="uParagraph">The first decentralized Marketplace which makes simplifies and
+                                standarizes
+                                data with blockchain
+                                technology. We provides user-friendly, efficient and secure crypto solutions and
+                                utilizing
+                                blockchain technology.
+                            </p>
+                            <div class="button">
+                                <a href="#" class="uButton">Private sale</a>
+                            </div>
+                        </div>
+                        <div class="picture">
+                            <img src="./images/intro-picture.png" alt="intro">
+                        </div>
+                    </div>
+                    <div class="middle">
+                        <div class="progress">
+                            <div class="info">
+                                <ul>
+                                    <li>
+                                        Raised - <span>45,819 Tokens</span>
+                                    </li>
+                                    <li>
+                                        Target - <span>150,000 Tokens</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bar">
+                                <div class="percentage"></div>
+                                <div class="point" style="left: 25%">
+                                    Soft cap
+                                </div>
+                                <div class="point" style="left: 50%">
+                                    Crowdsale
+                                </div>
+                                <div class="point" style="left: 75%">
+                                    Hard Cap
+                                </div>
+                            </div>
+                        </div>
+                        <div class="status">
+                            <div>
+                                <h6>Current Bonus</h6>
+                                <h3>20%</h3>
+                                <p>Contributors can receive</p>
+                            </div>
+                            <div>
+                                <h6>The Bonus ends in</h6>
+                                <h3>2031</h3>
+                                <p>Ending soon</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="operations">
+                            <a href="#" class="pulsingIcon">
+                                <div class="icon">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                                <span>How it Works</span>
+                            </a>
+                            <a href="#">
+                                <div class="icon">
+                                    <i class="fas fa-lightbulb"></i>
+                                </div>
+                                <span>Why buy Tokens now?</span>
+                            </a>
+                        </div>
+                        <div class="socials">
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-medium-m"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-bitcoin"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-github"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— Ecosystems [Section 2] ——— -->
+        <section id="ecosystems" class="uSection">
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="head uSectionHead">
+                        <h2 title="Core Ecosystems">Ecosystems</h2>
+                    </div>
+                    <div class="features uBackgroundCenter"
+                        style="background-image: url('./images/features-background.png')">
+                        <!-- Feature 1 -->
+                        <div class="feature">
+                            <h5>ONE MARKETPLACE</h5>
+                            <p>One International Marketplace that combines online store and services around the world.
+                                Buy any goods or services with our tokens.
+                            </p>
+                        </div>
+                        <!-- Feature 2 -->
+                        <div class="feature">
+                            <h5>TRANSPARENCY AND TRUST</h5>
+                            <p>One International Marketplace that combines online store and services around the world.
+                                Buy any goods or services with our tokens.
+                            </p>
+                        </div>
+                        <!-- Feature 3 -->
+                        <div class="feature">
+                            <h5>BLOCKCHAIN BASED PROFILES</h5>
+                            <p>One International Marketplace that combines online store and services around the world.
+                                Buy any goods or services with our tokens.
+                            </p>
+                        </div>
+                        <!-- Feature 4 -->
+                        <div class="feature">
+                            <h5>PAYMENT FLEXIBILITY</h5>
+                            <p>One International Marketplace that combines online store and services around the world.
+                                Buy any goods or services with our tokens.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— Platform [Section 3] ——— -->
+        <section id="platform" class="uSection">
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="head uSectionHead">
+                        <h2 title="Icox Products">Platform</h2>
+                    </div>
+
+                    <div class="types">
+                        <ul>
+                            <li>
+                                <a href="#" class="active">For Participators</a>
+                            </li>
+                            <li class="line"></li>
+                            <li>
+                                <a href="#">For Traders</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="content">
+                        <div class="detail">
+                            <h2>A Open Platform for our Participators</h2>
+                            <p class="uParagraph">Each participator can choose the trader and to sign a contract.</p>
+                            <div class="features">
+                                <!-- Feature 1 -->
+                                <div class="feature">
+                                    <div class="icon">
+                                        <i class="far fa-lightbulb"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>User have full access to trading consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                                <!-- Feature 2 -->
+                                <div class="feature">
+                                    <div class="icon">
+                                        <i class="fab fa-btc"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>User have full access to trading consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                                <!-- Feature 3 -->
+                                <div class="feature">
+                                    <div class="icon">
+                                        <i class="fab fa-pagelines"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>User have full access to trading consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                                <!-- Feature 4 -->
+                                <div class="feature">
+                                    <div class="icon">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>User have full access to trading consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="picture flex-center">
+                            <div class="animatedCircle">
+                                <div class="circle big"></div>
+                                <div class="circle small"></div>
+                            </div>
+                            <img src="./images/platform-picture.png" alt="platform">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— MVP [Section 4] ——— -->
+        <section id="mvp" class="uSection">
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="head uSectionHead">
+                        <h2 title="Mvp Apps">MVP</h2>
+                        <p>Our project is based on an existing cryptocurrency exchange.</p>
+                    </div>
+
+                    <div class="content">
+                        <div class="pictures">
+                            <img src="./images/mvp-circle.png" alt="circle" class="circle">
+                            <img src="./images/mvp-picture-desktop.png" alt="desktop" class="desktop">
+                            <img src="./images/mvp-picture-mobile.jpg" alt="mobile" class="mobile">
+                            <img src="./images/mvp-polygon.png" alt="polygon" class="polygon">
+                            <img src="./images/mvp-triangle.png" alt="triangle" class="triangle">
+                        </div>
+
+                       
+    </script>
+</body>
+
+</html>
